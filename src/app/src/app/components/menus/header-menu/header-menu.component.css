@@ -1,0 +1,20 @@
+.logopic{
+    width:"180";
+    height:"60"; 
+    justify-content: center;
+    flex-basis: auto;
+    margin: 22px 5px 2px 10px;
+}
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 25%;
+    padding: 0 10px 20px 0;
+    box-sizing: border-box;
+
+}
+
+  .header-container > img {
+    flex-basis: auto;
+  }
