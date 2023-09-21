@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +9,6 @@ import { CommonModule } from '@angular/common';
 })
 export class AppComponent {
   title = 'OasisDelivery';
+
+
 }

@@ -1,1 +1,11 @@
-<p>main-menu works!</p>
+<div class="main-menu-container row container-fluid">
+    <div class="cards-container">
+        <div *ngFor="let menuitem of menuArray" class="card">
+        <ul>
+            <li>{{menuitem.mainmenuTitle}}</li>
+        </ul>
+        </div>
+    </div>
+</div>
+
+

@@ -1,36 +1,31 @@
-<router-outlet>
-<!-- Toolbar -->
-<div class="toolbar" role="banner">
- <app-header-menu></app-header-menu>
+
+  <div class="container-fluid">
+        <!-- Toolbar Component -->
+        <div class="row toolbar" role="banner">
+          <app-header-menu></app-header-menu>
+        </div>
+    <div class="row">
+      <mat-drawer-container class="example-container">
+        <mat-drawer mode="side" opened>
+            <!-- Collapsible Side Nav (25% width) -->
+          <app-collapsible-sidenav class="col-md-2"></app-collapsible-sidenav>
+        </mat-drawer>
+        <mat-drawer-content>
+          <!-- Main Content Area (75% width) -->
+          <div class="col-md-12">
+            <app-main-menu></app-main-menu>
+            <app-ad-space></app-ad-space>
+            <app-category-menu></app-category-menu>
+            <app-shop-by-occasions-menu></app-shop-by-occasions-menu>
+            <app-best-selling-menu></app-best-selling-menu>
+              <!-- Footer -->
+            <footer class="row">
+              <p>Footer</p>
+            </footer>
+          <!-- Router Outlet for Routed Components -->
+          <router-outlet></router-outlet>
+          </div>
+        </mat-drawer-content>
+      </mat-drawer-container>
 </div>
-
-<div class="content" role="main">
-<app-main-menu></app-main-menu>
-  <!-- Highlight Card -->
-  <div class="card highlight-card card-small">
-
-    <app-category-menu></app-category-menu>
-
-  </div>
-
-  <div class="card-container">
-  <app-shop-by-occasions-menu></app-shop-by-occasions-menu>
-
-  </div>
-
-  <div class="card-container">
-
-  </div>
-
-<app-best-selling-menu></app-best-selling-menu>
-
-  <!-- Footer -->
-  <footer>
-
-  </footer>
-
-
 </div>
-
-
-</router-outlet>
