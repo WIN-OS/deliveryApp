@@ -1,0 +1,53 @@
+.logopic{
+    width:"180";
+    height:"60"; 
+    justify-content: center;
+    margin: 22px 5px 2px 10px;
+}
+.header-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 10px 20px 0;
+    box-sizing: border-box;
+
+}
+.m-toolbar{
+  background-color: #041725;
+  flex:1 1 auto
+}
+.header-container > mat-toolbar > div {
+    padding: 15px 0 10px 10px;
+  }
+
+  .header-container > mat-toolbar > .logo-cont img{
+    align-items: flex-start;
+    padding: 10px 0 0 5px;
+  }
+
+  .header-container > mat-toolbar > .icons-cont{
+    padding: 40px 0 0 5px;
+    color: white; 
+    font-size: 50px;
+    align-items: center;
+    justify-content: right;
+
+  }
+
+  .city-dd{
+    margin: 10px 0 10px 0 ;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .header-container > mat-toolbar > .city-ddc{
+    align-items: flex-start;
+    padding: 40px 0 0 5px;
+  }
+
+
+
+  .header-container mat-toolbar div :nth-child(1) { order: 1; }
+  .header-container mat-toolbar div  :nth-child(2) { order: 2; }
+  .header-container mat-toolbar div  :nth-child(3) { order: 3; }
+  .header-container mat-toolbar div  :nth-child(3) { order: 4; }
