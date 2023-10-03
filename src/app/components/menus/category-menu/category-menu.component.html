@@ -1,0 +1,10 @@
+<div class="category-menu-container row container-fluid">
+    <div class="cards-container">
+        <div *ngFor="let user of userArray" class="card">
+            <img [src]="user.url" alt="user.id" style="width:100%">
+            <div class="title-container">
+              <h4><b>{{user.name}}</b></h4>
+            </div>
+          </div>
+    </div>
+    </div>
