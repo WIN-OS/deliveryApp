@@ -5,15 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
-import { HeaderMenuComponent } from './src/app/components/menus/header-menu/header-menu.component';
-import { MainMenuComponent } from './src/app/components/menus/main-menu/main-menu.component';
-import { CategoryMenuComponent } from './src/app/components/menus/category-menu/category-menu.component';
-import { ShopByOccasionsMenuComponent } from './src/app/components/menus/shop-by-occasions-menu/shop-by-occasions-menu.component';
-import { BestSellingMenuComponent } from './src/app/components/menus/best-selling-menu/best-selling-menu.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { HeaderMenuComponent } from './components/menus/header-menu/header-menu.component';
+import { MainMenuComponent } from './components/menus/main-menu/main-menu.component';
+import { CategoryMenuComponent } from './components/menus/category-menu/category-menu.component';
+import { ShopByOccasionsMenuComponent } from './components/menus/shop-by-occasions-menu/shop-by-occasions-menu.component';
+import { BestSellingMenuComponent } from './components/menus/best-selling-menu/best-selling-menu.component';
+import { FontAwesomeModule  } from '@fortawesome/angular-fontawesome';
 
-import { MaterialModule } from './material/material.module';
-import { CollapsibleSidenavComponent } from './src/app/components/collapsible-sidenav/collapsible-sidenav.component';
+import { MaterialModule } from './modules/material.module';
+import { CollapsibleSidenavComponent } from './components/collapsible-sidenav/collapsible-sidenav.component';
 import { RouterService } from './services/router.service';
 import { AdSpaceComponent } from './components/ad-space/ad-space.component';
 @NgModule({
